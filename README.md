@@ -1,3 +1,8 @@
+# 本リポジトリについて
+[LLaVA-JP](https://github.com/hibikaze-git/LLaVA-JP)に変更を加えたものです．hibikaze様およびtosiyuki様に感謝いたします．
+
+**以下末尾まで，hibikaze様によるREADMEの原文です．**
+
 # リポジトリについて
 [LLaVA-JP](https://github.com/tosiyuki/LLaVA-JP)に変更を加えたリポジトリです。tosiyuki様に感謝します。  
 主な変更点は以下のとおりです。  
