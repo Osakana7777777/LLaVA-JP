@@ -4,10 +4,10 @@ from huggingface_hub import HfApi
 api = HfApi()
 
 # アップロードするローカルフォルダのパス
-local_folder_path = "./output_llava/checkpoints/finetune_gpt2_rinna_small-v1-siglip-so400m-patch14-384/checkpoint-2000"
+local_folder_path = "./output_llava/checkpoints/pretrain-llava-jp-Tanuki-8B-vision-v0-siglip-so400m-patch14-384"
 
 # アップロード先のリポジトリ情報
-repo_id = "hibikaze/finetune_gpt2_rinna_small-v1-siglip-so400m-patch14-384_checkpoint-2000"  # リポジトリID（Hugging Face Hubのユーザー名とリポジトリ名）
+repo_id = "team-hatakeyama-phase2/Tanuki-8B-vision-0616-siglip-so400m-patch14-384-stage1"  # リポジトリID（Hugging Face Hubのユーザー名とリポジトリ名）
 repo_type = "model"  # リポジトリの種類（"model", "dataset", "space"など）
 commit_message = "upload model"  # コミットメッセージ
 

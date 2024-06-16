@@ -11,10 +11,10 @@ train_llava.py \
     --mm_vision_select_layer -2 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_feature patch \
-    --data_path ./dataset/llava_pretrain_stair.json \
+    --data_path ./dataset/LLaVA-CC-300k-Caption/llava_cc_300k_caption.json  \
     --lazy_preprocess False \
     --is_multimodal True \
-    --image_folder ./dataset/images/stage1 \
+    --image_folder ./dataset/images/cc_300k \
     --image_aspect_ratio square \
     --optim adamw_torch \
     --double_quant True \
@@ -24,7 +24,7 @@ train_llava.py \
     --group_by_modality_length False \
     --fp16 False \
     --bf16 True \
-    --output_dir ./output_llava/checkpoints/pretrain-llava-jp-Tanuki-8B-vision-v0-siglip-so400m-patch14-384 \
+    --output_dir ./output_llava/checkpoints/pretrain-llava-jp-Tanuki-8B-vision-v0-siglip-so400m-patch14-384/0616 \
     --num_train_epochs 1 \
     --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 4 \
@@ -36,11 +36,11 @@ train_llava.py \
     --learning_rate 1e-3 \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
-    --logging_steps 10 \
+    --logging_steps 1 \
     --model_max_length 8192 \
     --gradient_checkpointing True \
     --dataloader_num_workers 16 \
     --lr_scheduler_type "cosine" \
     --use_wandb \
-    --wandb_project llava-jp-stage1 \
-    --wandb_name Tanuki-8B-vision-v0
+    --wandb_project llava-jp-test \
+    --wandb_name Tanuki-8B-vision-0616-commoncatalog-300k-stage1-shiraishi-1gpu
