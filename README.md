@@ -1,7 +1,7 @@
 # 本リポジトリについて
 [LLaVA-JP](https://github.com/hibikaze-git/LLaVA-JP)に変更を加えたものです．hibikaze様およびtosiyuki様に感謝いたします．
 # Status: archive
-**本リポジトリは2024/8/8を持ってarchiveにしました．**
+**本リポジトリは2024/8/8をもってarchiveにしました．**
 
 新たな変更は，https://github.com/hibikaze-git/LLaVA-JP に反映されています．
 
